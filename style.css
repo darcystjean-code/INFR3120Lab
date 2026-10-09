@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+/* The body tag style applies to all elements on the page */
+body {
+background-color: #8C6100;
+font-family: Verdana, Geneva, Arial, sans-serif;
+padding:0px;
+margin:0px;
+}
+
+#right-column
+{
+    float:right;
+    width:600px;
+    background-color:aliceblue;
+}
+
+#left-column
+{
+    float: left;
+    width: 360px;
+    background-color: beige;
+}
+
+#page-content-pc{
+    width: 960px;
+    margin: auto;
+}
+
+/* This clear class style terminates float */
+.clear{
+clear: both;
+}
+
+header{
+    height: 25px;
+    background-color: #005A8C;
+    color: white;
+}
+
+header nav a{
+    float: right;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav h3{
+    float: left;
+    margin: auto;
+}
+
+footer{
+    background-color: #8C3600;
+    color: white;
+    height: 30px;
+    text-align: center;
+}
+    
+#contact{
+    text-align: center;
+    background: #005A8C;
+    background: -moz-linear-gradient(top, #005A8C 0%, #80D2FF 100%);
+    background: -webkit-linear-gradient(top, #005A8C 0%, #80D2FF 100%);
+    background: -o-linear-gradient(top, #005A8C 0%, #80D2FF 100%);
+    background: linear-gradient(top, #005A8C 0%, #80D2FF 100%);
+    margin: auto;
+    color: white;
+}

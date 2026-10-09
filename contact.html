@@ -1,0 +1,48 @@
+<!--The HTML5 doctype declaration is very simple-->
+<!DOCTYPE HTML>
+<!--All page content is inside the HTML element-->
+<html>
+<!--Head element content is not visible in a browser window-->
+
+<head>
+    <!--The UTF-8 character set provides the most support for all symbols and
+characters-->
+    <meta charset="UTF-8">
+    <title>Darcy St Jean Portfolio</title>
+    <!-- The following line links to our style sheet file-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<!--Content visible in the browser's window is inside the HTML element-->
+
+<body>
+    <header>
+        <!--navbar containing links to other pages-->
+        <nav>
+            <h3>Darcy St Jean</h3>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="about_me.html">About Me</a>
+        </nav>
+    </header>
+    <div id="page-content-pc">
+        <div id="contact">
+            <form action="mailto:darcy.stjean@ontariotechu.net" method="post" enctype="text/plain">
+                <p>Send your feedback here!</p>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Name"><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Email"><br>
+                <label for="message">Message</label><br>
+                <textarea></textarea><br>
+                <!-- <input type="textarea" rows="4" cols="40" id="message" name="message"><br> -->
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+    <footer id="footer">
+        © 2026 Darcy St Jean <email>darcy.stjean@ontariotechu.net</email>
+    </footer>
+</body>
+
+</html>
