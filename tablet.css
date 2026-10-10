@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+/*applies background color and fonts as well as removes padding and margin from the edges of the page*/
+body {
+background-color: #8C6100;
+font-family: Verdana, Geneva, Arial, sans-serif;
+padding:0px;
+margin:0px;
+}
+
+/*floats column content to the right, sets a width of 600px and a height of 1000px*/
+#right-column
+{
+    width:480px;
+    height: 1000px;
+    margin: auto;
+    background-color: #FFD880;
+}
+
+/*dictates size of image in the column*/
+#right-column img{
+    width: 480px;
+}
+
+/*floats column content to the left, sets a width of 360px and a height of 1000px*/
+#left-column
+{
+    width: 480px;
+    margin: auto;
+    background-color: #FFD880;
+}
+
+/*designates a 960px wide area for page content*/
+#page-content{
+    width: 480px;
+    margin: auto;
+}
+
+/* This clear class style terminates float */
+.clear{
+clear: both;
+}
+
+/*sets header background color and height*/
+header{
+    height: 25px;
+    background-color: #005A8C;
+    color: white;
+}
+
+/*floats link content to the right when in a nav element inside a header*/
+header nav a{
+    float: right;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/*floats h3 content to the left when in a nav element in a header*/
+header nav p{
+    float: left;
+    margin: auto;
+}
+
+/*designates height, background, and text color for the footer*/
+footer{
+    background-color: #8C3600;
+    color: white;
+    height: 30px;
+    text-align: center;
+}
+
+/*aligns content within a contact form and places a gradient in the background*/
+#contact{
+    text-align: center;
+    background: #005A8C;
+    background: -moz-linear-gradient(top, #005A8C 0%, #80D2FF 100%);
+    background: -webkit-linear-gradient(top, #005A8C 0%, #80D2FF 100%);
+    background: -o-linear-gradient(top, #005A8C 0%, #80D2FF 100%);
+    background: linear-gradient(to top, #005A8C 0%, #80D2FF 100%);
+    margin: auto;
+    color: white;
+}
+
+/*organizes project boxes and appplies a gradient*/
+.project{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    background: #005A8C;
+    background: -moz-linear-gradient(left, #005A8C 0%, #80D2FF 100%);
+    background: -webkit-linear-gradient(left, #005A8C 0%, #80D2FF 100%);
+    background: -o-linear-gradient(left, #005A8C 0%, #80D2FF 100%);
+    background: linear-gradient(to left, #005A8C 0%, #80D2FF 100%);
+}
+
+/*makes button bigger for phone and tablet users*/
+#form-button{
+    height: 50px;
+    width: 80px;
+}

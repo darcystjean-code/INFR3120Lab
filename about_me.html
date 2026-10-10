@@ -1,16 +1,22 @@
-<!--The HTML5 doctype declaration is very simple-->
+<!--HTML5 doctype declaration-->
 <!DOCTYPE HTML>
-<!--All page content is inside the HTML element-->
 <html>
-<!--Head element content is not visible in a browser window-->
 
 <head>
-    <!--The UTF-8 character set provides the most support for all symbols and
-characters-->
+    <!--defining charset, title, and links to stylesheets-->
     <meta charset="UTF-8">
     <title>Darcy St Jean Portfolio</title>
-    <!-- The following line links to our style sheet file-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Make device report screen width-->
+    <meta name="viewport" content="width=device-width">
+    <!--full screen style sheet-->
+    <link href="full.css" rel="stylesheet" type="text/css" media="only screen and
+(min-width:960px)">
+    <!-- tablet style sheet-->
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and
+(min-width:481px) and (max-width:960px)">
+    <!-- phone style sheet-->
+    <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and
+(max-width:480px)">
 </head>
 <!--Content visible in the browser's window is inside the HTML element-->
 
@@ -18,13 +24,14 @@ characters-->
     <header>
         <!--navbar containing links to other pages-->
         <nav>
-            <h3>Darcy St Jean</h3>
+            <p>Darcy St Jean</p>
             <a href="index.html">Home</a>
             <a href="contact.html">Contact Me</a>
             <a href="projects.html">Projects</a>
             <a href="about_me.html">About Me</a>
         </nav>
     </header>
+    <!--page content formated to screen size-->
     <div id="page-content">
         <div id="left-column">
             <article>
@@ -43,15 +50,15 @@ characters-->
             </article>
         </div>
         <div id="right-column">
-            <img src="picture.jpg">
-            <video preload controls poster="sf3 thumbnail.png">
+            <img src="picture.jpg" alt="A picture of me">
+            <video preload controls poster="sf3_thumbnail.png">
                 <source src="video.mp4" type="video/mp4">
                 <source src="video.ogv" type="video/ogg">
             </video>
         </div>
     </div>
     <footer id="footer" class="clear">
-        © 2026 Darcy St Jean <email>darcy.stjean@ontariotechu.net</email>
+        © 2026 Darcy St Jean darcy.stjean@ontariotechu.net
     </footer>
 </body>
 

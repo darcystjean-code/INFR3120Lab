@@ -1,12 +1,22 @@
 <!--HTML5 doctype declaration-->
 <!DOCTYPE HTML>
 <html>
+
 <head>
-    <!--defining charset, title, and link to stylesheet-->
+    <!--defining charset, title, and links to stylesheets-->
     <meta charset="UTF-8">
     <title>Darcy St Jean Portfolio</title>
-    <!-- The following line links to our style sheet file-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Make device report screen width-->
+    <meta name="viewport" content="width=device-width">
+    <!--fukk screen style sheet-->
+    <link href="full.css" rel="stylesheet" type="text/css" media="only screen and
+(min-width:960px)">
+    <!-- tablet style sheet-->
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and
+(min-width:481px) and (max-width:960px)">
+    <!-- phone style sheet-->
+    <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and
+(max-width:480px)">
 </head>
 <!--main page content-->
 <body>
@@ -14,18 +24,18 @@
     <header>
         <!--navbar containing links to other pages-->
         <nav>
-            <h3>Darcy St Jean</h3>
+            <p>Darcy St Jean</p>
             <a href="index.html">Home</a>
             <a href="contact.html">Contact Me</a>
             <a href="projects.html">Projects</a>
             <a href="about_me.html">About Me</a>
         </nav>
     </header>
-    
+
     <!--footer with copyright information-->
-   <footer>
-    © 2026 Darcy St Jean <email>darcy.stjean@ontariotechu.net</email>
-   </footer>
+    <footer>
+        © 2026 Darcy St Jean darcy.stjean@ontariotechu.net
+    </footer>
 </body>
 
 </html>
