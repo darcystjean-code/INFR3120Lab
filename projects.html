@@ -15,16 +15,39 @@ characters-->
 <!--Content visible in the browser's window is inside the HTML element-->
 
 <body>
-    <h1>Welcome!</h1>
-    <p>This is myh portfolio website</p>
-    <nav>
-       <ul>
-            <li><a href="contact.html">Contact Me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="about_me.html">About Me</a></li>
-       </ul>
-    </nav>
-    <footer id="footer">
+    <header>
+        <!--navbar containing links to other pages-->
+        <nav>
+            <h3>Darcy St Jean</h3>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="about_me.html">About Me</a>
+        </nav>
+    </header>
+    <div id="page-content">
+            <div class="project">
+                <h3>Event Orgnization Software</h3>
+                <p>Command line software made in python to find and organize upcoming events</p>
+            </div>
+            <div class="project">
+                <h3>Simulated Network</h3>
+                <p>Simulated autonomous system made in packet tracer as a networking final project</p>
+            </div>
+            <div class="project">
+                <h3>Card Game</h3>
+                <p>Card game with a computer controlled opponent made in C#</p>
+            </div>
+            <div class="project">
+                <h3>Word Guessing Game</h3>
+                <p>A word guessing game made in python</p>
+            </div>
+            <div class="project">
+                <h3>Real Estate Browsing Site</h3>
+                <p>Backend functionality and database design for a web development final project</P>
+            </div>
+    </div>
+    <footer id="footer" class="clear">
        © 2026 Darcy St Jean <email>darcy.stjean@ontariotechu.net</email>
     </footer>
 </body>
