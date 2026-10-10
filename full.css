@@ -23,6 +23,11 @@ margin:0px;
     width: 450px;
 }
 
+/*resizes video to better fit style*/
+#right-column video{
+    width: 450px;
+}
+
 /*floats column content to the left, sets a width of 360px and a height of 1000px*/
 #left-column
 {

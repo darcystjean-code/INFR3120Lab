@@ -21,7 +21,10 @@ margin:0px;
 #right-column img{
     width: 480px;
 }
-
+/*resizes video to better fit style*/
+#right-column video{
+    width: 480px;
+}
 /*floats column content to the left, sets a width of 360px and a height of 1000px*/
 #left-column
 {
